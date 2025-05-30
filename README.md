@@ -24,48 +24,73 @@ A Netflix-inspired UI clone built with **Kotlin** and **Jetpack Compose**. This 
 - JDK 8 or higher
 - Kotlin 1.5 or higher
 
-### Installation
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/zenkriztao/jetpack-netflix.git
-````
+# Jetpack Netflix - Android App
 
-2. Open the project in Android Studio.
+A Jetpack Compose-based Android app that mimics the Netflix UI, utilizing modern Android development tools.
 
-3. Build and run the project on an Android emulator or a physical device.
+## Installation
 
-### Gradle Dependencies
+### 1. Clone the Repository
 
-Ensure you have the following dependencies in your `build.gradle` files:
+Clone this repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/zenkriztao/jetpack-netflix.git
+```
+
+### 2. Open the Project in Android Studio
+
+1. Launch **Android Studio**.
+2. Select **Open an existing project**.
+3. Navigate to the folder where you cloned the repository and open it.
+
+### 3. Build and Run the Project
+
+Build and run the project on either an Android emulator or a physical device.
+
+---
+
+## Gradle Dependencies
+
+Ensure that your `build.gradle` files include the following dependencies:
 
 ```gradle
 dependencies {
     implementation "androidx.compose.ui:ui:1.0.0"
     implementation "androidx.compose.material:material:1.0.0"
     implementation "androidx.compose.ui:ui-tooling:1.0.0"
-    implementation "io.coil-kt:coil-compose:1.3.2"
-    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "io.coil-kt:coil-compose:1.3.2"  // For image loading
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"  // For API calls
     // Add any other dependencies as needed
 }
 ```
 
+---
+
 ## 🧑‍💻 Contributing
 
-Feel free to fork this repository, create branches, and submit pull requests to contribute. If you want to report issues or request new features, please create an issue.
+We welcome contributions to improve this project! If you'd like to contribute, follow the steps below:
+
+1. **Fork** the repository.
+2. Create a **feature branch** (`git checkout -b feature/your-feature`).
+3. Make your changes and **commit** them (`git commit -am 'Add your feature'`).
+4. Push the branch to your fork (`git push origin feature/your-feature`).
+5. Submit a **Pull Request** for review.
 
 ### Code Style
 
 * Follow **Kotlin coding conventions**.
 * Use **Jetpack Compose best practices** for UI development.
-* Keep your commit messages **semantic** to maintain clarity in project history.
+* Keep your commit messages **semantic** to maintain clarity in the project history.
+
+---
 
 ## 📑 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
 🧑‍💻 **Built by** [Zenkriztao](https://github.com/zenkriztao) - a Kotlin and Jetpack Compose enthusiast, passionate about building smooth and modern Android apps. 🚀
-
-```
